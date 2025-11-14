@@ -1,5 +1,35 @@
 import math
 
+def add(a, b):
+
+    return a + b
+
+def sub(a, b):
+
+    return a - b
+
+def mul(a, b):
+
+    return a * b
+
+def div(a, b):
+
+    try:
+        return b / a
+
+    except ZeroDivisionError:
+        print("Error")
+
+def log(a, b):
+
+    try:
+        return log(a, b)
+    except ZeroDivisionError:
+        print("Error")
+
+def exp(a, b):
+
+    return a ** b
 
 def square_root(a):
     
@@ -26,14 +56,6 @@ def subtract(a, b):
 def multiply(a, b):
     
     return a * b
-
-
-def divide(a, b):
-    
-    if a == 0:
-        raise ZeroDivisionError("Invalid Input")
-    else:
-        return b / a
 
 
 def logarithm(a, b): 
