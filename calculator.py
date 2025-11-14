@@ -1,3 +1,7 @@
+# https://github.com/slomar1/lab11-OPM-SRMR
+# Partner 1: Omar Porven Miranda
+# Partner 2: Santiago Mena
+
 import math
 
 def add(a, b):
