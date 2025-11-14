@@ -53,3 +53,16 @@ def logarithm(a, b):
 
     else:
         math.log(a, b)
+
+
+
+def square_root(a):
+    
+    if a < 0:
+        raise ValueError("Invalid Input")
+    else:
+        return math.sqrt(a)
+
+def hypotenuse(a, b):
+    
+    return math.hypot(a, b)
