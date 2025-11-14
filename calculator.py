@@ -24,7 +24,7 @@ def log(a, b):
 
     try:
         return log(a, b)
-    except ZeroDivisionError:
+    except ValueError:
         print("Error")
 
 def exp(a, b):
