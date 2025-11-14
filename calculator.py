@@ -17,10 +17,8 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-
     try:
         return b / a
-
     except ZeroDivisionError:
         print("Error")
 
