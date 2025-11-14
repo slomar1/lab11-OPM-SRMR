@@ -53,7 +53,7 @@ def multiply(a, b):
 def logarithm(a, b):
 
     if b <= 0:
-        raise ZeroDivisionError("Invalid Input")
+        raise ValueError("Invalid Input")
 
     else:
         math.log(a, b)
